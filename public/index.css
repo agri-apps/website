@@ -1,0 +1,21 @@
+body {    
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+body, html, .page {
+    height: 100%;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+    width: 350px;
+}
+.logo + p {
+    font-size: 1.4em;
+    color: #888;
+    text-align: center;
+}
